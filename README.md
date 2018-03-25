@@ -15,7 +15,9 @@
 | [Radix Sort](http://www.geeksforgeeks.org/radix-sort/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Sleep Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 
+
 ## Searching Algorithms
+
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
 | [Linear Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
@@ -23,7 +25,9 @@
 | [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Depth First Traversal](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 
+
 ## Other algo
+
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
 | [Dijkstra Algorithm](https://en.wikipedia.org/wiki/Dijkstra's_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
