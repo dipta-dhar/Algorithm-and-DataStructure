@@ -18,6 +18,7 @@
 
 ## Searching Algorithms
 
+| Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
 | [Linear Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
@@ -28,6 +29,7 @@
 
 ## Other algo
 
+| Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
 | [Dijkstra Algorithm](https://en.wikipedia.org/wiki/Dijkstra's_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
