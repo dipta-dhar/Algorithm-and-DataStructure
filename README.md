@@ -5,7 +5,7 @@
 
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
-| [Bubble Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cpp) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.java) | [:white_check_mark:] | [:white_check_mark:] |
+| [Bubble Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cpp) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.java) |  | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cs) |
 | [Bucket Sort](http://www.cdn.geeksforgeeks.org/bucket-sort-2/)| [:white_check_mark:](Algorithms/Sorting/BucketSort.cpp) | [:white_check_mark:](Algorithms/Sorting/BucketSort.java) | [:white_check_mark:](Algorithms/Sorting/BucketSort.py) | |
 | [Cocktail Sort](http://www.growingwiththeweb.com/2016/04/cocktail-sort.html)|  | [:white_check_mark:](Algorithms/Sorting/CocktailSort.java) | | [:white_check_mark:](Algorithms/Sorting/CocktailSort.cs) |
 | [Comb Sort](http://www.growingwiththeweb.com/2016/09/comb-sort.html)|  |  | [:white_check_mark:](Algorithms/Sorting/CombSort.py) |  |
