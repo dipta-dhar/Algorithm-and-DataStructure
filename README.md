@@ -8,16 +8,16 @@
 | [Bubble Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cpp) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.java) |  | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cs) |
 | [Bucket Sort](http://www.cdn.geeksforgeeks.org/bucket-sort-2/)| [:white_check_mark:](Algorithms/Sorting/BucketSort.cpp) | [:white_check_mark:](Algorithms/Sorting/BucketSort.java) | [:white_check_mark:](Algorithms/Sorting/BucketSort.py) | |
 | [Cocktail Sort](http://www.growingwiththeweb.com/2016/04/cocktail-sort.html)|  | [:white_check_mark:](Algorithms/Sorting/CocktailSort.java) | | [:white_check_mark:](Algorithms/Sorting/CocktailSort.cs) |
-| [Comb Sort](http://www.growingwiththeweb.com/2016/09/comb-sort.html)|  |  | [:white_check_mark:](Algorithms/Sorting/CombSort.py) |  |
+| [Comb Sort](http://www.growingwiththeweb.com/2016/09/comb-sort.html)| [:white_check_mark:](Algorithms/Sorting/CombSort.cpp) |  | [:white_check_mark:](Algorithms/Sorting/CombSort.py) |  |
 | [Counting Sort](http://www.geeksforgeeks.org/counting-sort/)| [:white_check_mark:](Algorithms/Sorting/CountingSort.cpp) | [:white_check_mark:](Algorithms/Sorting/CountingSort.java) | | [:white_check_mark:](Algorithms/Sorting/CountingSort.cs) |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) | [:white_check_mark:](Algorithms/Sorting/HeapSort.cpp) | [:white_check_mark:](Algorithms/Sorting/HeapSort.java) |  |  |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.cpp) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.java) |  |  |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.cpp) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.java) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.py) |  |
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) | [:white_check_mark:](Algorithms/Sorting/MergeSort.cpp) | [:white_check_mark:](Algorithms/Sorting/MergeSort.java) |  |  |
-| [Odd-Even Sort](http://www.growingwiththeweb.com/2016/10/odd-even-sort.html)| [:white_check_mark:](Algorithms/Sorting/OddEvenSort.cpp) | [:white_check_mark:](Algorithms/Sorting/OddEvenSort.java) |  |  |
+| [Odd-Even Sort](http://www.growingwiththeweb.com/2016/10/odd-even-sort.html)| [:white_check_mark:](Algorithms/Sorting/OddEvenSort.cpp) | [:white_check_mark:](Algorithms/Sorting/OddEvenSort.java) |  | [:white_check_mark:](Algorithms/Sorting/OddEvenSort.cs) |
 | [Quick sort](https://en.wikipedia.org/wiki/Quicksort) | [:white_check_mark:](Algorithms/Sorting/QuickSort.cpp) | [:white_check_mark:](Algorithms/Sorting/QuickSort.java) |  |  |
-| [Radix Sort](http://www.geeksforgeeks.org/radix-sort/) | [:white_check_mark:](Algorithms/Sorting/RadixSort.cpp) | [:white_check_mark:](Algorithms/Sorting/RadixSort.java) |  |  |
+| [Radix Sort](http://www.geeksforgeeks.org/radix-sort/) | [:white_check_mark:](Algorithms/Sorting/RadixSort.cpp) | [:white_check_mark:](Algorithms/Sorting/RadixSort.java) | [:white_check_mark:](Algorithms/Sorting/RadixSort.py) |  |
 | [Shell Sort](https://en.wikipedia.org/wiki/Shellsort) | [:white_check_mark:](Algorithms/Sorting/ShellSort.cpp) | [:white_check_mark:](Algorithms/Sorting/ShellSort.java) |  |  |
-| [Sleep Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/SleepSort.cpp) | [:white_check_mark:](Algorithms/Sorting/SleepSort.java) |  |  |
+| [Sleep Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/SleepSort.cpp) | [:white_check_mark:](Algorithms/Sorting/SleepSort.java) |  | [:white_check_mark:](Algorithms/Sorting/SleepSort.cs) |
 
 
 ## Searching & Traversal Algorithms
