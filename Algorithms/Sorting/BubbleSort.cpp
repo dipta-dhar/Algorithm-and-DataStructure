@@ -10,9 +10,9 @@ void BubbleSort(int arr[], int n) {
     for (i=0; i<n; ++i) {
         for (j=0; j<n-i-1; ++j) {
             if (arr[j] > arr[j+1]) {
-                    int tem = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = tem;
+                int tem = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = tem;
 	    }
 	}
     }
@@ -40,5 +40,5 @@ int main()
     BubbleSort(arr, n);
     showOutput();
 
-	return 0;
+    return 0;
 }
