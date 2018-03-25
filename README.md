@@ -51,7 +51,7 @@
 | [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 
 
-## Implemented Data Structures
+# Implemented Data Structures
 
 | Data Structure | C | CPP | Java | Python | Golang | JavaScript | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
