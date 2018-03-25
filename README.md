@@ -24,11 +24,10 @@
 
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
-| [Linear Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Breadth First Search](https://en.wikipedia.org/wiki/Bubble_sort) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Depth First Traversal](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
+| [Linear Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:](Algorithms/searchingAndTraversal/LinearSearch.cpp) | [:white_check_mark:](Algorithms/searchingAndTraversal/LinearSearch.java) |  | [:white_check_mark:](Algorithms/searchingAndTraversal/LinearSearch.cs) |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:](Algorithms/searchingAndTraversal/BinarySearch.cpp) | [:white_check_mark:](Algorithms/searchingAndTraversal/BinarySearch.iava) | [:white_check_mark:](Algorithms/searchingAndTraversal/BinarySearch.py) |  |
+| [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | [:white_check_mark:](Algorithms/searchingAndTraversal/BreathFirstTraversal.cpp) | [:white_check_mark:](Algorithms/searchingAndTraversal/BreathFirstTraversal.java) |  | [:white_check_mark:](Algorithms/searchingAndTraversal/BreathFirstTraversal.cs) |
+| [Depth First Traversal](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/) | [:white_check_mark:](Algorithms/searchingAndTraversal/DepthFirstTraversal.cpp) | [:white_check_mark:](Algorithms/searchingAndTraversal/DepthFirstTraversal.java) | [:white_check_mark:](Algorithms/searchingAndTraversal/DepthFirstTraversal.py) |  |
 
 
 ## Shortest Path Algorithms
