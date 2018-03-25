@@ -5,7 +5,7 @@
 
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
-| [Bubble Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cpp) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
+| [Bubble Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.cpp) | [:white_check_mark:](Algorithms/Sorting/BubbleSort.java) | [:white_check_mark:] | [:white_check_mark:] |
 | [Bucket Sort](http://www.cdn.geeksforgeeks.org/bucket-sort-2/)| [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Counting Sort](http://www.geeksforgeeks.org/counting-sort/)| [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
