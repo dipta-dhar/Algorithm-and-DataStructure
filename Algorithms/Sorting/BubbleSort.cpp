@@ -6,11 +6,11 @@ using namespace std;
 int arr[size], n;
 
 void BubbleSort(int arr[], int n) {
-    int i, j;
-	for(i=0; i<n; ++i) {
-		for(j=0; j<n-i-1; ++j) {
-			if(arr[j] > arr[j+1]) {
-			 	int tem = arr[j];
+	int i, j;
+	for (i=0; i<n; ++i) {
+		for (j=0; j<n-i-1; ++j) {
+			if (arr[j] > arr[j+1]) {
+                int tem = arr[j];
 				arr[j] = arr[j+1];
 				arr[j+1] = tem;
 			}
@@ -21,7 +21,7 @@ void BubbleSort(int arr[], int n) {
 void getInput() {
     printf("Enter Total number of elements: ");
 	scanf("%d", &n);
-	
+
 	printf("Enter %d numbers:\n", n);
 	for(int i=0; i<n; i++) {
 		scanf("%d", &arr[i]);
@@ -36,9 +36,9 @@ void showOutput() {
 }
 
 int main() {
-    getInput();
+	getInput();
     BubbleSort(arr, n);
     showOutput();
 
-    return 0;
+	return 0;
 }
