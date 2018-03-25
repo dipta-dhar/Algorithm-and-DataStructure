@@ -37,7 +37,7 @@ void showOutput() {
 
 int main()
 {
-	getInput();
+    getInput();
     BubbleSort(arr, n);
     showOutput();
 
