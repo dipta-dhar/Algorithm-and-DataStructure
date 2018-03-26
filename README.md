@@ -44,7 +44,7 @@
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
 | [Kruskal’s Algorithm](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/) | [:white_check_mark:](Algorithms/MinimumSpanningTree/Kruskals.cpp) | [:white_check_mark:](Algorithms/MinimumSpanningTree/Kruskals.java) | [:white_check_mark:](Algorithms/MinimumSpanningTree/Kruskals.py) | [:white_check_mark:](Algorithms/MinimumSpanningTree/Kruskals.cs) |
-| [Prim’s Algorithm](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/) | [:white_check_mark:] |(Algorithms/MinimumSpanningTree/PrimsMST.cpp) [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.java) | [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.py) | [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.cs) |
+| [Prim’s Algorithm](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/) | [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.cpp) | [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.java) | [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.py) | [:white_check_mark:](Algorithms/MinimumSpanningTree/PrimsMST.cs) |
 
 
 ## DP Algorithms
