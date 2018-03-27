@@ -65,12 +65,13 @@
 
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
-| [Hamiltonian Cycle Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Knight’s tour problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [N-Queen Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Rat in a Maze Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Subset Sum Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Sudoku Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
+| [Hamiltonian Cycle Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/HamiltonianCycle.cpp) | [:white_check_mark:](Algorithms/Backtracking/HamiltonianCycle.java) | [:white_check_mark:](Algorithms/Backtracking/HamiltonianCycle.py) | [:white_check_mark:](Algorithms/Backtracking/HamiltonianCycle.cs) |
+| [Knight’s tour problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/knightsTour.cpp) | [:white_check_mark:](Algorithms/Backtracking/knightsTour.java) |  |  |
+| [N-Queen Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/nQueenProblem.cpp) | [:white_check_mark:](Algorithms/Backtracking/nQueenProblem.java) |  |  |
+| [Permutations Generator](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/allPermutations.cpp) | [:white_check_mark:](Algorithms/Backtracking/allPermutations.java) |  |  |
+| [Rat in a Maze Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/ratInaMaze.cpp) | [:white_check_mark:](Algorithms/Backtracking/ratInaMaze.java) | [:white_check_mark:](Algorithms/Backtracking/ratInaMaze.py) |  |
+| [Subset Sum Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/subsetSum.cpp) | [:white_check_mark:](Algorithms/Backtracking/subsetSum.java) |  |  |
+| [Sudoku Solver](https://en.wikipedia.org/wiki/Eight_queens_puzzle) | [:white_check_mark:](Algorithms/Backtracking/sudokuSolver.cpp) | [:white_check_mark:](Algorithms/Backtracking/sudokuSolver.java) |  | [:white_check_mark:](Algorithms/Backtracking/sudokuSolver.cs) |
 
 
 # Implemented Data Structures
