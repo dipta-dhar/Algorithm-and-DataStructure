@@ -77,7 +77,7 @@ public class sudokuSolver {
 
 
 /*
-Example Input:
+Sample Input:
 -------------
 
 3
