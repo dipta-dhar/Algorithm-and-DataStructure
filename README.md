@@ -51,13 +51,14 @@
 
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
-| [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Longest Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [0-1 Knapsack Problem](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
-| [Rock-clambing Problem](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] | [:white_check_mark:] |
+| [0-1 Knapsack Problem](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.java) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.py) |  |
+| [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) | [:white_check_mark:](Algorithms/dpAlgorithms/CoinChange.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/CoinChange.java) | [:white_check_mark:](Algorithms/dpAlgorithms/CoinChange.py) |  |
+| [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.java) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.py) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.cs) |
+| [Longest Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/LIS.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LIS.java) |  |  |
+| [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubstring.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubstring.java) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubstring.py) |  |
+| [Longest Palindromic Subsequence](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubsequence.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubsequence.java) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubsequence.py) |  |
+| [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.java) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.py) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.cs) |
+| [Rock-Climbing Problem](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.java) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.py) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.cs) |
 
 
 ## Backtracking Algorithms
