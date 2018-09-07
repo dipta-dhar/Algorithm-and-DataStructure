@@ -55,7 +55,7 @@
 
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
-| [0-1 Knapsack Problem](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.java) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.py) |  |
+| [0-1 Knapsack Problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.java) | [:white_check_mark:](Algorithms/dpAlgorithms/O1_Knapsack.py) |  |
 | [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) | [:white_check_mark:](Algorithms/dpAlgorithms/CoinChange.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/CoinChange.java) | [:white_check_mark:](Algorithms/dpAlgorithms/CoinChange.py) |  |
 | [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.java) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.py) | [:white_check_mark:](Algorithms/dpAlgorithms/LCS.cs) |
 | [Longest Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/LIS.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LIS.java) |  |  |
