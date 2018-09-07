@@ -11,6 +11,7 @@
 | [Cocktail Sort](http://www.growingwiththeweb.com/2016/04/cocktail-sort.html)|  | [:white_check_mark:](Algorithms/Sorting/CocktailSort.java) | | [:white_check_mark:](Algorithms/Sorting/CocktailSort.cs) |
 | [Comb Sort](http://www.growingwiththeweb.com/2016/09/comb-sort.html)| [:white_check_mark:](Algorithms/Sorting/CombSort.cpp) |  | [:white_check_mark:](Algorithms/Sorting/CombSort.py) |  |
 | [Counting Sort](http://www.geeksforgeeks.org/counting-sort/)| [:white_check_mark:](Algorithms/Sorting/CountingSort.cpp) | [:white_check_mark:](Algorithms/Sorting/CountingSort.java) | | [:white_check_mark:](Algorithms/Sorting/CountingSort.cs) |
+| [Cycle Sort](https://www.javatpoint.com/cycle-sort)| [:white_check_mark:](Algorithms/Sorting/CycleSort.cpp) | [:white_check_mark:](Algorithms/Sorting/CycleSort.java) | | [:white_check_mark:](Algorithms/Sorting/CycleSort.cs) |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) | [:white_check_mark:](Algorithms/Sorting/HeapSort.cpp) | [:white_check_mark:](Algorithms/Sorting/HeapSort.java) |  |  |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.cpp) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.java) | [:white_check_mark:](Algorithms/Sorting/InsertionSort.py) |  |
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) | [:white_check_mark:](Algorithms/Sorting/MergeSort.cpp) | [:white_check_mark:](Algorithms/Sorting/MergeSort.java) |  |  |
@@ -19,6 +20,7 @@
 | [Radix Sort](http://www.geeksforgeeks.org/radix-sort/) | [:white_check_mark:](Algorithms/Sorting/RadixSort.cpp) | [:white_check_mark:](Algorithms/Sorting/RadixSort.java) | [:white_check_mark:](Algorithms/Sorting/RadixSort.py) |  |
 | [Shell Sort](https://en.wikipedia.org/wiki/Shellsort) | [:white_check_mark:](Algorithms/Sorting/ShellSort.cpp) | [:white_check_mark:](Algorithms/Sorting/ShellSort.java) |  |  |
 | [Sleep Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/SleepSort.cpp) | [:white_check_mark:](Algorithms/Sorting/SleepSort.java) |  | [:white_check_mark:](Algorithms/Sorting/SleepSort.cs) |
+| [Tim Sort](https://www.javatpoint.com/tim-sort) | [:white_check_mark:](Algorithms/Sorting/TimSort.cpp) | [:white_check_mark:](Algorithms/Sorting/TimSort.java) |  | [:white_check_mark:](Algorithms/Sorting/TimSort.cs) |
 
 
 ## Searching & Traversal Algorithms
