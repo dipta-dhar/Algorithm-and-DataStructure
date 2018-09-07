@@ -39,7 +39,7 @@
 | Algorithm | C/CPP | Java | Python | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
 | [Bellman Ford's Algorithm](https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/) | [:white_check_mark:](Algorithms/ShortestPath/BellmanFords.cpp) | [:white_check_mark:](Algorithms/ShortestPath/BellmanFords.java) | [:white_check_mark:](Algorithms/ShortestPath/BellmanFords.py) | [:white_check_mark:](Algorithms/ShortestPath/BellmanFords.cs) |
-| [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra's_algorithm) | [:white_check_mark:](Algorithms/ShortestPath/Dijkstras.cpp) | [:white_check_mark:](Algorithms/ShortestPath/Dijkstras.java) |  | [:white_check_mark:](Algorithms/ShortestPath/Dijkstras.cs) |
+| [Dijkstra's Algorithm](https://www.programiz.com/dsa/dijkstra-algorithm) | [:white_check_mark:](Algorithms/ShortestPath/Dijkstras.cpp) | [:white_check_mark:](Algorithms/ShortestPath/Dijkstras.java) |  | [:white_check_mark:](Algorithms/ShortestPath/Dijkstras.cs) |
 | [Floyd–Warshall's Algorithm](https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/) | [:white_check_mark:](Algorithms/ShortestPath/FloydWarshalls.cpp) | [:white_check_mark:](Algorithms/ShortestPath/FloydWarshalls.java) |  | [:white_check_mark:](Algorithms/ShortestPath/FloydWarshalls.cs) |
 
 
