@@ -79,12 +79,11 @@
 
 # Implemented Data Structures
 
-| Data Structure | C | CPP | Java | Python | Golang | JavaScript | C# |
-|:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
-| [AVL Tree](http://www.geeksforgeeks.org/avl-tree-set-1-insertion)|[:white_check_mark:](avl_tree/avl_tree.c)| |[:white_check_mark:](avl_tree/AvlTree.java) | | | | |
-| [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree) | | | [:white_check_mark:](binary_search_tree/BinarySearchTree.java) | [:white_check_mark:](binary_search_tree/BinarySearchTree.py) | [:white_check_mark:](binary_search_tree/binary_search_tree.go) | | |
-| [Linked List](https://en.wikipedia.org/wiki/Linked_list) | [:white_check_mark:](linked_list/linkedList.c.c) | | [:white_check_mark:](linked_list/LinkedList.java) | [:white_check_mark:](linked_list/linked_list.py) | [:white_check_mark:](linked_list/linked_list.go) | [:white_check_mark:](linked_list/linkedList.js) | [:white_check_mark:](linked_list/LinkedList.cs) |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | | | [:white_check_mark:](queue/queue.py) | | | |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) | [:white_check_mark:](stack/stack.c) | | [:white_check_mark:](stack/Stack.java) | [:white_check_mark:](stack/stack.py) | [:white_check_mark:](stack/stack.go) | [:white_check_mark:](stack/stack.js) | [:white_check_mark:](stack/Stack.cs) |
-| [Trie](https://en.wikipedia.org/wiki/Trie) | | [:white_check_mark:](trie/trie.cpp) | [:white_check_mark:](trie/Trie.java) | | [:white_check_mark:](trie/trie.go) | | [:white_check_mark:](trie/Trie.cs) | |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | | [:white_check_mark:](queue/Queue.java) | | | | | |
+| Data Structure | C/CPP | Java | Python | C# |
+|:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|
+| [AVL Tree](https://www.javatpoint.com/avl-tree) | [:white_check_mark:](DataStructure/AVLtree.cpp) | [:white_check_mark:](DataStructure/AVLtree.java) |  | [:white_check_mark:](DataStructure/AVLtree.cs) |
+| [Binary Search Tree](https://algorithms.tutorialhorizon.com/binary-search-tree-complete-implementation/) | [:white_check_mark:](DataStructure/BST.cpp) | [:white_check_mark:](DataStructure/BST.java) | [:white_check_mark:](DataStructure/BST.py) | [:white_check_mark:](DataStructure/BST.cs) |
+| [Linked List](https://www.javatpoint.com/singly-linked-list) | [:white_check_mark:](DataStructure/LinkedList.cpp) | [:white_check_mark:](DataStructure/LinkedList.java) |  | [:white_check_mark:](DataStructure/LinkedList.cs) |
+| [Queue](https://www.javatpoint.com/data-structure-queue) | [:white_check_mark:](DataStructure/Queue.cpp) |  | [:white_check_mark:](DataStructure/Queue.py) | [:white_check_mark:](DataStructure/Queue.cs) |
+| [Stack](https://www.javatpoint.com/data-structure-stack) | [:white_check_mark:](DataStructure/Stack.cpp) | [:white_check_mark:](DataStructure/Stack.java) | [:white_check_mark:](DataStructure/Stack.py) |  |
+| [Trie](https://www.toptal.com/java/the-trie-a-neglected-data-structure) | [:white_check_mark:](DataStructure/Trie.cpp) | [:white_check_mark:](DataStructure/Trie.java) |  | [:white_check_mark:](DataStructure/Trie.cs) |
