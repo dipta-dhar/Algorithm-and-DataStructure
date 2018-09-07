@@ -20,7 +20,7 @@
 | [Radix Sort](http://www.geeksforgeeks.org/radix-sort/) | [:white_check_mark:](Algorithms/Sorting/RadixSort.cpp) | [:white_check_mark:](Algorithms/Sorting/RadixSort.java) | [:white_check_mark:](Algorithms/Sorting/RadixSort.py) |  |
 | [Shell Sort](https://en.wikipedia.org/wiki/Shellsort) | [:white_check_mark:](Algorithms/Sorting/ShellSort.cpp) | [:white_check_mark:](Algorithms/Sorting/ShellSort.java) |  |  |
 | [Sleep Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | [:white_check_mark:](Algorithms/Sorting/SleepSort.cpp) | [:white_check_mark:](Algorithms/Sorting/SleepSort.java) |  | [:white_check_mark:](Algorithms/Sorting/SleepSort.cs) |
-| [Tim Sort](https://www.javatpoint.com/tim-sort) | [:white_check_mark:](Algorithms/Sorting/TimSort.cpp) | [:white_check_mark:](Algorithms/Sorting/TimSort.java) |  | [:white_check_mark:](Algorithms/Sorting/TimSort.cs) |
+| [Tim Sort](https://dev.to/s_awdesh/timsort-fastest-sorting-algorithm-for-real-world-problems--2jhd) | [:white_check_mark:](Algorithms/Sorting/TimSort.cpp) | [:white_check_mark:](Algorithms/Sorting/TimSort.java) |  | [:white_check_mark:](Algorithms/Sorting/TimSort.cs) |
 
 
 ## Searching & Traversal Algorithms
