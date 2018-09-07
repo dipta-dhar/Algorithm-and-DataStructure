@@ -1,136 +1,89 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-
-struct Node {
-  char ch;
-  map<char, Node*> children;
-};
-
-class Trie {
-  public:
-    Trie() { head.ch = -1; };
-    ~Trie();
-
-    void build_trie(string words[], int length);
-    void insert(string word);
-    void search(string word, bool &result);
-
-    void print_tree(map<char, Node*> tree);
-    void print();
-
-  protected:
-    Node head;
-    // Keep all newly created node in an array, for the ease of
-    // memory release.
-    vector<Node*> children;
-};
-
-Trie::~Trie() {
-  for (int i=0; i<children.size(); ++i) {
-    delete children[i];
-  }
-}
-
-void Trie::build_trie(string words[], int length) {
-  for (int i=0; i<length; ++i) {
-    insert(words[i]);
-  }
-}
-
-void Trie::insert(string word) {
-  map<char, Node*> *current_tree = &head.children;
-  map<char, Node*>::iterator it;
-
-  for (int i=0; i<word.length(); ++i) {
-    char ch = word[i];
-
-    if ((it = current_tree->find(ch)) != current_tree->end()) {
-      current_tree = &it->second->children;
-      continue;
-    }
-
-    if (it == current_tree->end()) {
-      // Display inserting position in the tree, for debug use
-      //
-      // cout << "Inserting " << ch << endl;
-      // cout << "on layer " << endl;
-      // map<char, Node*>::iterator temp = current_tree->begin();
-      // for (; temp != current_tree->end(); ++temp)
-      //   cout << temp->first << endl;
-
-      Node* new_node = new Node();
-      new_node->ch = ch;
-      (*current_tree)[ch] = new_node;
-
-      // For continuous inserting a word.
-      current_tree = &new_node->children;
-      
-      // For the ease of memory clean up.
-      children.push_back(new_node);
-    }
-  }
-}
-
-void Trie::search(string word, bool &result) {
-  map<char, Node*> current_tree = head.children;
-  map<char, Node*>::iterator it;
-
-  for (int i=0; i<word.length(); ++i) {
-    if ((it = current_tree.find(word[i])) == current_tree.end()) {
-      result = false;
-      return;
-    }
-    current_tree = it->second->children;
-  }
-
-  result = true;
-  return ;
-}
-
-void Trie::print_tree(map<char, Node*> tree) {
-  if (tree.empty()) {
-    return;
-  }
-
-  for (map<char, Node*>::iterator it=tree.begin(); it!=tree.end(); ++it) {
-    cout << it->first << endl;
-    print_tree(it->second->children);
-  }
-}
-
-void Trie::print() {
-  map<char, Node*> current_tree = head.children;
-  print_tree(current_tree);
-}
-
-
-int main(int argc, char** argv)
+ 
+const int ALPHABET_SIZE = 26;
+ 
+// trie node
+struct TrieNode
 {
-  string words[] = {"foo", "bar", "baz", "barz"};
-  Trie trie;
-  trie.build_trie(words, 4);
-  cout << "All nodes..." << endl;
-  trie.print();
-
-  cout << "Searching..." << endl;
-  bool in_trie = false;
-  trie.search("foo", in_trie);
-  cout << "foo " << in_trie << endl;
-
-  trie.search("fooz", in_trie);
-  cout << "fooz " << in_trie << endl;
-
-  trie.search("bar", in_trie);
-  cout << "bar " << in_trie << endl;
-
-  trie.search("baz", in_trie);
-  cout << "baz " << in_trie << endl;
-
-  trie.search("barz", in_trie);
-  cout << "barz " << in_trie << endl;;
-
-  trie.search("bbb", in_trie);
-  cout << "bbb " << in_trie << endl;;
-
-  return 0;
+    struct TrieNode *children[ALPHABET_SIZE];
+ 
+    // isEndOfWord is true if the node represents
+    // end of a word
+    bool isEndOfWord;
+};
+ 
+// Returns new trie node (initialized to NULLs)
+struct TrieNode *getNode(void)
+{
+    struct TrieNode *pNode =  new TrieNode;
+ 
+    pNode->isEndOfWord = false;
+ 
+    for (int i = 0; i < ALPHABET_SIZE; i++)
+        pNode->children[i] = NULL;
+ 
+    return pNode;
+}
+ 
+// If not present, inserts key into trie
+// If the key is prefix of trie node, just
+// marks leaf node
+void insert(struct TrieNode *root, string key)
+{
+    struct TrieNode *pCrawl = root;
+ 
+    for (int i = 0; i < key.length(); i++)
+    {
+        int index = key[i] - 'a';
+        if (!pCrawl->children[index])
+            pCrawl->children[index] = getNode();
+ 
+        pCrawl = pCrawl->children[index];
+    }
+ 
+    // mark last node as leaf
+    pCrawl->isEndOfWord = true;
+}
+ 
+// Returns true if key presents in trie, else
+// false
+bool search(struct TrieNode *root, string key)
+{
+    struct TrieNode *pCrawl = root;
+ 
+    for (int i = 0; i < key.length(); i++)
+    {
+        int index = key[i] - 'a';
+        if (!pCrawl->children[index])
+            return false;
+ 
+        pCrawl = pCrawl->children[index];
+    }
+ 
+    return (pCrawl != NULL && pCrawl->isEndOfWord);
+}
+ 
+// Driver
+int main()
+{
+    // Input keys (use only 'a' through 'z'
+    // and lower case)
+    string keys[] = {"the", "a", "there",
+                    "answer", "any", "by",
+                     "bye", "their" };
+    int n = sizeof(keys)/sizeof(keys[0]);
+ 
+    struct TrieNode *root = getNode();
+ 
+    // Construct trie
+    for (int i = 0; i < n; i++)
+        insert(root, keys[i]);
+ 
+    // Search for different keys
+    search(root, "the")? cout << "Yes\n" :
+                         cout << "No\n";
+    search(root, "these")? cout << "Yes\n" :
+                           cout << "No\n";
+    return 0;
 }
