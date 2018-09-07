@@ -1,5 +1,8 @@
-#include<stdio.h>  
-const int run = 32;  
+#include<bits/stdc++.h>
+using namespace std;
+
+const int run = 32;
+
 int minimum(int a, int b)  
 {  
     if(a<b)  
@@ -95,6 +98,7 @@ int main()
     printf("Printing sorted array elements \n");  
     for (i = 0; i < n; i++)  
         printf("%d  ", a[i]);  
-    printf("\n");  
+    printf("\n");
+    
     return 0;  
 }
