@@ -4,151 +4,249 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication3
+namespace SLL
 {
+    /// <summary>
+    /// A simple basic implementation of singly linked list in C#. The List class implements Add, Find and Delete funcationality without using built-in .NET classes.
+    /// </summary> 
+    internal class List
+    {        
+        /// <summary>
+        /// Node class
+        /// </summary>
+        internal class Node
+        {
+            private int data; 
+            private Node next = null;
+
+            /// <summary>
+            /// Pointer to next node.
+            /// </summary>
+            internal Node Next
+            {
+                get { return next; }
+                set { next = value; }
+            }
+                       
+            /// <summary>
+            /// Data stored in the node.
+            /// </summary>
+            internal int Data
+            {
+                get { return data; }
+                set { data = value; }
+            }
+
+            /// <summary>
+            /// Constructor
+            /// </summary>
+            /// <param name="d"></param>
+            internal Node(int d)
+            {
+                data = d;
+            }
+        }
+
+        private int _length;
+        private Node _head;
+
+        /// <summary>
+        /// Length of the list
+        /// </summary>
+        internal int Length
+        {
+            get { return _length; }
+        }
+
+        /// <summary>
+        /// Default Constructor
+        /// </summary>
+        internal List()
+        {
+            _length = 0;
+            _head = null;
+        }
+
+        /// <summary>
+        /// Display all nodes.
+        /// </summary>
+        internal void ShowNodes()
+        {
+            // Print all nodes till the end of the list.
+            Node current = _head;
+            if (current == null)
+            {
+                Console.WriteLine("No more nodes to display.");
+                Console.WriteLine();
+            }
+            else
+            {
+                ShowLength();
+                while (current != null)
+                {
+                    Console.WriteLine("Node : " + current.Data);
+                    current = current.Next;
+                }
+                Console.WriteLine();
+            }
+        }
+
+        /// <summary>
+        /// Show length of the list.
+        /// </summary>
+        internal void ShowLength()
+        {
+            string numString = "numbers";
+            if (_length == 1)
+            {
+                numString = "number";
+            }
+            Console.WriteLine(String.Format("List has [{0}] {1}.", _length.ToString(), numString));
+        }
+
+        /// <summary>
+        /// To insert a new Node at the end of the list.
+        /// </summary>
+        /// <param name="d"></param>
+        internal void Add(int d)
+        {
+            Console.WriteLine();
+            Console.WriteLine(String.Format("Add node [{0}].", d.ToString()));
+            // Create a new Node instance with given data;
+            Node newNode = new Node(d);
+            Node current = _head;
+            if (_head == null)
+            {
+                _head = newNode;
+            }
+            else
+            {
+                // Traverse till the end of the list....
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                }
+                // Add new node as the next node to the last node.
+                current.Next = newNode;
+            }
+            _length++;
+            ShowNodes();
+        }
+
+        /// <summary>
+        /// Delete the node matching specified number, if it exists.
+        /// </summary>
+        /// <param name="d"></param>
+        internal void Delete(int d)
+        {
+            Console.WriteLine();
+            Console.WriteLine(String.Format("Delete node [{0}].", d.ToString()));
+            // Find the node to be deleted. 
+            Node current = _head;
+
+            if (current != null)
+            {
+                // Handle the case for 'head' node when first node matches the node to be deleted.
+                if (current.Data == d)
+                {
+                    // If first node is not the only node
+                    if (current.Next != null)
+                    {
+                        current = current.Next;
+                    }
+                    else
+                    {
+                        current = null;
+                    }
+                    _head = current;
+                    _length--;
+                }
+                else
+                {
+                    while (current.Next != null && current.Next.Data != d)
+                    {
+                        current = current.Next;
+                    }
+                    if (current.Next != null && current.Next.Data == d)
+                    {
+                        // Set the next pointer of the previous node to be the node next to the one that is being deleted.
+                        current.Next = current.Next.Next;
+                        // Delete the node
+                        current = null;
+                        _length--;
+                    }
+                    else
+                    {
+                        Console.WriteLine(d.ToString() + " could not be found in the list.");                        
+                    }
+                }
+            }
+            ShowNodes();
+        }
+
+        /// <summary>
+        /// Find node matching the specified number.
+        /// </summary>
+        /// <param name="d"></param>
+        /// <returns>Returns node matching specifying int.</returns>
+        internal void Find(int d)
+        {
+            Console.WriteLine();
+            Console.WriteLine(String.Format("Find node [{0}].", d.ToString()));
+            Node current = _head;
+            if (current != null)
+            {
+                int counter = 1;
+                while (current.Next != null && current.Data != d)
+                {
+                    current = current.Next;
+                    counter++;
+                }
+                if (current.Data == d)
+                {
+                    Console.WriteLine(String.Format("Found {0} in the list at position [{1}].", d.ToString(), counter.ToString()));
+                }
+                else
+                {
+                    Console.WriteLine(String.Format("{0} was not found in the list.", d.ToString()));
+                }
+            }
+            else
+            {
+                Console.WriteLine(String.Format("{0} was not found in the list.", d.ToString()));
+            }
+            ShowNodes();
+        }
+    }
+
+    /// <summary>
+    /// Client class that runs the program.
+    /// </summary>
     class Program
     {
-        public class linkedNode<T>
-        {
-            public linkedNode<T> next;
-            public T Data;
-            public linkedNode(T Data)
-            {
-                this.Data = Data;
-            }
-        }
-
-        public class linked<T>
-        {
-            public linkedNode<T> Head
-            {
-                get
-                {
-                    return head;
-                }
-            }
-            private linkedNode<T> head;
-            private linkedNode<T> tail;
-            public void AddFirst(linkedNode<T> node)
-            {
-                if (head == null)
-                {
-                    head = tail = node;
-                    head.next = tail;
-                }
-                else
-                {
-                    node.next = head;
-                    head = node;
-                }
-            }
-
-            public void AddLast(linkedNode<T> node)
-            {
-                if (tail == null)
-                {
-                    tail = head = node;
-                    head.next = tail;
-                }
-                else
-                {
-                    tail.next = node;
-                    tail = node;
-                }
-            }
-
-            // inserting after a node is much easier than before a node in a singly linked list because there is no 
-            // pointer to the node pointing at the current, unlike a doubly linked list.
-            public void insertAfter(linkedNode<T> nodeBefore, linkedNode<T> node)
-            {
-                linkedNode<T> nodeAfter = nodeBefore.next;
-                nodeBefore.next = node;
-                node.next = nodeAfter;
-
-            }
-
-            public void removeLink(linkedNode<T> node)
-            {
-                linkedNode<T> nodeBefore = FindNodeBefore(node);
-                // if node not found, just return
-                if (nodeBefore == null)
-                    return;
-                if (object.ReferenceEquals(head, node))
-                {
-                    head = node;
-                }
-                if (object.ReferenceEquals(tail, node))
-                {
-                    tail = nodeBefore;
-                }
-                
-                nodeBefore.next = node.next;
-            }
-
-            // finding the node before the current requires traversal of a singly linked list.
-            public linkedNode<T> FindNodeBefore(linkedNode<T> node)
-            {
-                // there is no node before the head, so return null
-                if (object.ReferenceEquals(node, head))
-                    return null;
-                linkedNode<T> nodeBefore = head;
-                linkedNode<T> cursor = head;
-                while (cursor != null)
-                {
-
-                    if (object.ReferenceEquals(node, cursor))
-                        return nodeBefore;
-
-                    nodeBefore = cursor;
-
-                    cursor = cursor.next;
-                }
-                //if nothing found, return null
-                return null;
-            }
-        }
         static void Main(string[] args)
         {
-            linked<string> list = new linked<string>();
-            list.AddFirst(new linkedNode<string>("first to left"));
-            list.AddFirst(new linkedNode<string>("second to left"));
-            list.AddLast(new linkedNode<string>("first to right"));
-            list.AddLast(new linkedNode<string>("second to right"));
-            list.AddFirst(new linkedNode<string>("third to left"));
-            list.AddLast(new linkedNode<string>("third to right"));
-            linkedNode<string> newLastNode = new linkedNode<string>("last node");
-            list.AddLast(newLastNode);
-            list.insertAfter(newLastNode, new linkedNode<string>("inserted first after the last"));
-            list.insertAfter(newLastNode, new linkedNode<string>("inserted second after the last, but will appear right after the last"));
+            List list = new List();
 
-            DisplayAllNodes(list);
+            // Add a few elements to the list.
+            list.Add(5);
+            list.Add(8);
+            list.Add(9);
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Delete(2);
+            list.Delete(5);            
+            list.Delete(1);            
+            list.Delete(3);            
+            list.Delete(4);
+            list.Find(9);
+            list.Delete(8);
+            list.Find(8);                        
+            list.Find(9);
 
-            Console.WriteLine("list2 items are being displayed");
-            linked<string> list2 = new linked<string>();
-           
-            list2.AddLast(new linkedNode<string>("first item"));
-            list2.AddLast(new linkedNode<string>("second item"));
-            linkedNode<string> thirdItem = new linkedNode<string>("third item");
-            list2.AddLast(thirdItem);
-            list2.AddLast(new linkedNode<string>("fourth item"));
-            list2.AddLast(new linkedNode<string>("fifth item"));
-
-            list2.removeLink(thirdItem);
-        
-            DisplayAllNodes(list2);
-
-
+            // This ensures the command window is displayed in case the program is not run from command prompt.
             Console.ReadLine();
-        }
-
-        private static void DisplayAllNodes(linked<string> list)
-        {
-            linkedNode<string> cursor = list.Head;
-            while (cursor != null)
-            {
-                Console.WriteLine(cursor.Data);
-                cursor = cursor.next;
-            }
         }
     }
 }
