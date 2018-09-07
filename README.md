@@ -62,7 +62,7 @@
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubstring.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubstring.java) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubstring.py) |  |
 | [Longest Palindromic Subsequence](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubsequence.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubsequence.java) | [:white_check_mark:](Algorithms/dpAlgorithms/LPsubsequence.py) |  |
 | [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.java) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.py) | [:white_check_mark:](Algorithms/dpAlgorithms/maxSubArraySum1D.cs) |
-| [Rock-Climbing Problem](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.java) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.py) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.cs) |
+| [Rock-Climbing Problem](https://ezgineer.wordpress.com/2016/01/12/stairs-climbing-puzzle-dynamic-programming/) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.cpp) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.java) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.py) | [:white_check_mark:](Algorithms/dpAlgorithms/dpRockClimbing.cs) |
 
 
 ## Backtracking Algorithms
